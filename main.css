@@ -1,0 +1,176 @@
+.background-page {
+	font-family: Noto Sans;
+	background-color: #000000;
+	color: white;
+	padding-left: 2em;
+	padding-right: 23em;
+	padding-top: 1em;
+}
+
+.sidenav {
+  height: 100%; /* Full-height, "auto" height */
+  width: 24%; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  background-color: #234252; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  right: 0em;
+  text-align: center;
+  font-family: Noto Sans;
+}
+
+#landingLogo {
+	font-family: Noto Sans;
+	position: fixed;
+    top: 1em;
+    left: 1em;
+    z-index: 998;
+    font-size: 1em;
+    width: 0%;
+    height: 0%;
+    transition: all 1s;
+    cursor: pointer;
+}
+
+m-v-logo .logo-ring {
+	position: absolute;
+	display: block;
+	z-index: 0;
+}
+.logo-ring {
+	position: fixed;
+	top: -0.51em;
+	height: 2.66em;
+	left: -0.475em;
+	width: 1.66em;
+	filter: opacity(50%) contrast(33%);
+}
+
+/* The navigation menu links */
+.google {
+  font-family: sans-serif typeface;
+  text-decoration: none;
+  font-size: 16px;
+  color: #ffffff;
+  border-radius: 28px;
+  display: inline;
+  line-height: 2em;
+  padding: 0.5em 2.5em 0.5em 2.5em;
+  background-color: #4885ed;
+}
+
+.google:hover {
+	background-color: white;
+	color: black;
+	transition-duration: 0.5s;
+}
+
+.start {
+  text-decoration: none;
+  font-size: 16px;
+  color: #ffffff;
+  border-radius: 28px;
+  display: inline-block;
+  line-height: 2em;
+  padding: 0em 2em 0em 2em;
+  background-color: #5aa4c9;
+}
+
+.start:hover {
+	background-color: white;
+	color: black;
+	transition-duration: 0.5s;
+}
+
+.pricing {
+  text-decoration: none;
+  font-size: 16px;
+  color: #ffffff;
+  border-radius: 28px;
+  display: inline-block;
+  line-height: 2em;
+  padding: 0em 2em 0em 2em;
+  background-color: #5aa4c9;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.pricing:hover {
+	background-color: white;
+	color: black;
+	transition-duration: 0.5s;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.top-content {
+	font-weight: bold;
+	text-align: center;
+}
+
+.Title {
+	letter-spacing: 1px;
+	color: #ABABAB;
+	display: inline;
+}
+
+.M {
+	color: #FFFFFF;
+	display: inline;
+	border-bottom: .05em solid #e23203;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h2 {
+	font-size: 3em;
+}
+
+h3 {
+	font-size: 1.5em;
+	color: #8ebcd3;
+}
+
+h4 {
+	font-size: 1.5em;
+}
+
+.middle-content {
+	font-family: Noto Sans;
+	text-align: center;
+	font-weight: bold;
+}
+
+.bottom-content {
+	margin-top: 2em;
+	font-family: Noto Sans;
+	text-align: center;
+}
+
+.contact {
+	text-align: center;
+	list-style-type: none;
+	font-size: 12px;
+}
+
+li {
+	display: inline;
+	padding: 1.5em;
+	color: #8ebcd3;
+}
+
+.fa {
+	color: #8ebcd3;
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
