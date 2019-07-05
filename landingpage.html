@@ -9,43 +9,68 @@
 </head>
 
 <body class="background-page">
+	<!-- Login Page -->
 <div class="sidenav">	
   <center><a href="#"><img src="images/MREN.Login.jpg" height="90" width="90" style="margin-top: 5em; margin-bottom: 5em;"></a></center>
-  <p>LOGIN*</p>	
+  <p>Login*</p>	
   <div id="fb-root"></div>
 		<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.3&appId=148766029155241&autoLogAppEvents=1"></script>
-	<div class="fb-login-button" data-width="" data-size="large" data-button-type="login_with" data-auto-logout-link="false" data-use-continue-as="false" style="margin-left: 2.5em;"></div>
+	<div class="fb-login-button" data-width="" data-size="large" data-button-type="login_with" data-auto-logout-link="false" data-use-continue-as="false" style="margin-left: 3em; margin-bottom: 1em;"></div>
+	<a href="#" class="googleSignIn"><img src="images/googleSignIn.png" height="45" width="238"></a>
   <p>- OR -</p>
+  <!--
+  <div class="loginSection">
+  	<input type="email" name="email" value="Email" onFocus="field_focus(this, 'email');" onblur="field_blur(this, 'email');" class="email" />
+  	<input type="password" name="email" value="email" onFocus="field_focus(this, 'email');" onblur="field_blur(this, 'email');" class="email" />
+  	<a href="#" class="login">Login</a>
+  </div>
+-->
   <a href="#" class="start">Sign Up</a>
+  <div class="downloadButtons">
+  	<p>Get the app</p>
+  	<a href="#" class="googlePlay"><img src="images/googlePlay.png" height="65" width="150"></a>
+  	<a href="#" class="appStore"><img src="images/appStore.png" height="65" width="150"></a>
+   </div>
 </div>
+	<!-- End of Login Page -->
 <!-- Logo HTML -->
 	<m-v-logo id="landingLogo">
 		<svg class="logo-ring">
-		<h1 class="Title">Continu</h1><h1 class="M">M</u></h1>
+		<a href="landingpage.html"><h1 class="Title">Continu</h1><h1 class="M">M</u></h1></a>
 		</svg>
 	</m-v-logo>
+
 <!-- End of Logo HTML-->
 <!-- Top content -->
 	<div class="top-content">
+		<ul class="links">
+		<a href="contactus.html"><p2>About Us</p2></a>
+		<p2>•</p2>
+		<p2><a href="#bottom">Contact</a></p2>
+	</ul>
 		<h2>Collaborate in one place</h2>
-		<p>Organize your tasks and chat with your friends.</p>
 		<center><a href="#" class="start">Get Started</a></center>
 		</div>
 <!-- End of Top-Content -->
 <!-- Organize, Chat, Share Content, & Manage Tasks -->
-  	<div class="middle-content">
-  		<h3>ORGANIZE</h3>
-  		<p2>Create workspaces for yourself, teams, and groups.</p2>
-  		<h3>CHAT</h3>
-  		<p2>Socialize in group or direct messages with video and screen sharing.</p2>
-  		<h3>SHARE CONTENT</h3>
-  		<p2>Post, tag, search, and discuss with your team.</p2>
-  		<h3>MANAGE TASKS</h3>
-  		<p2>Assign and track your progress, customize your workflow.</p2>
-  		</div> <!-- End of Row-Two -->
-  	</div>
+<div class="Middle-Content">
+
+<video class="video1" height="290" width="300" autoplay="" loop="" muted="" controls="">
+        <source src="videos/task-expand-2.mp4">	
+</video>
+
+<video class="video2" height="290" width="300" autoplay="" loop="" muted="" controls="">
+        <source src="videos/task-expand-2.mp4">
+</video>
+
+<video class="video3" height="290" width="300" autoplay="" loop="" muted="" controls="">
+        <source src="videos/task-expand-2.mp4">
+</video>
+
+</div>
+
   	<!-- End of Middle-Content -->
-  	<div class="bottom-content">
+  	<div class="bottom-content" id="bottom">
   		<hr>
 				<h4>FREE FOR INDIVIDUALS AND SMALL GROUPS</h4>
 				<a href="#" class="pricing">View Pricing</a>
