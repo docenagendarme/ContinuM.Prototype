@@ -88,6 +88,26 @@ m-v-logo .logo-ring {
 	transition-duration: 0.5s;
 }
 
+.viewPricing {
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  color: #ffffff;
+  line-height: 2em;
+  padding: 0em 2em 0em 2em;
+  background-color: 1c1c1c;
+  filter: drop-shadow(2px 4px 6px black);
+  border-color: white;
+  border-style: solid;
+  border-radius: 2rem;
+}
+
+.viewPricing:hover {
+	border-color: white;
+	color: black;
+	transition-duration: 0.5s;
+}
+
 .login {
   text-decoration: none;
   font-size: 16px;
@@ -151,12 +171,14 @@ h3 {
 h4 {
 	font-size: 1.5em;
 	filter: drop-shadow(2px 4px 6px black);
+	opacity: 0.9;
 }
 
 h5 {
 	font-size: 1.5em;
 	text-align: center;
 	filter: drop-shadow(2px 4px 6px black);
+	color: #8ebcd3;
 }
 
 p {
@@ -164,11 +186,14 @@ p {
 	padding: 5px;
 	filter: drop-shadow(2px 4px 6px black);
 	font-size: 15px;
+	opacity: 0.8;
 }
 
 .bottom-content {
 	font-family: Noto Sans;
 	text-align: center;
+	padding-top: 3em;
+	opacity: 0.8;
 }
 
 .contact {
@@ -181,6 +206,7 @@ li {
 	display: inline;
 	padding: 2.5em;
 	filter: drop-shadow(2px 4px 6px black);
+	opacity: 0.8;
 }
 
 .fa {
@@ -219,6 +245,7 @@ a:hover {
 
 .links {
 	margin-top: -0.5em;
+	opacity: 0.8;
 }
 
 .video1 {
@@ -281,5 +308,4 @@ a:hover {
   display: table;
   clear: both;
   overflow: hidden;
-
 }
