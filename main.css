@@ -84,7 +84,8 @@ m-v-logo .logo-ring {
 }
 
 .start:hover {
-	color: black;
+	color: #ffffff;
+	background-color: #4178af;
 	transition-duration: 0.5s;
 }
 
@@ -104,7 +105,9 @@ m-v-logo .logo-ring {
 
 .viewPricing:hover {
 	border-color: white;
-	color: black;
+	color: #ffffff;
+	font-weight: bold;
+	background-color: #000000;
 	transition-duration: 0.5s;
 }
 
@@ -126,7 +129,7 @@ m-v-logo .logo-ring {
 }
 
 .downloadButtons {
-	margin-top: 10em;
+	margin-top: 6.5em;
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
@@ -146,7 +149,7 @@ m-v-logo .logo-ring {
 }
 
 .M {
-	color: white;
+	color: #666;
 	display: inline;
 	border-bottom: .05em solid #e23203;
 }
@@ -192,7 +195,7 @@ p {
 .bottom-content {
 	font-family: Noto Sans;
 	text-align: center;
-	padding-top: 3em;
+	padding-top: 4em;
 	opacity: 0.8;
 }
 
@@ -309,3 +312,39 @@ a:hover {
   clear: both;
   overflow: hidden;
 }
+
+@media all and (max-width: 1000px) {
+  
+  .sidenav {
+    height: 100%; /* Full-height, "auto" height */
+    width: 100%; /* Set the width of the sidebar */
+    position: absolute; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    background-color: #234252; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    right: 0em;
+    text-align: center;
+    font-family: Noto Sans;
+    color: white; 
+  }
+  
+  .column  {
+    float: center;
+    width: 100%;
+    padding-top: 2.5em;
+    /* Only for demonstration */
+    overflow: hidden;
+  }
+  
+  /* TODO - This isn't working on mobile The nav bar covers up everything */
+  .background-page {
+    font-family: Noto Sans;
+    background-color: #1c1c1c;
+    color: white;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 105%;
+  }
+}
+/* End Ryan's */
